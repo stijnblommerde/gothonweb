@@ -1,0 +1,39 @@
+$def with (content)
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gothons Of Planet Percal $25</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<nav class="">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a class="navbar-brand" href="/">Gothons Of Planet Percal 25</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                $if session.login == 1:
+                    <li><a href="/logout">logout</a></li>
+                $else:
+                    <li><a href="/login">login</a></li>
+                    <li><a href="/auth">register</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body>
+    <div class="container">
+    $:content
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="static/script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+env/
+.idea
+.DS_Store
+.pyc
+src/bin/app.pyc
+src/bin/forms.pyc
+src/bin/lexicon.pyc
+src/bin/map.pyc
+src/bin/my_parser.pyc
+src/bin/postgres.pyc
+src/bin/utils.pyc

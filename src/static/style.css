@@ -1,0 +1,28 @@
+/* ----------- Globals --------------- */
+
+h1 {
+    margin-bottom: 15px;
+}
+
+th {
+    margin-right: 25px;
+    width: 100px;
+}
+
+tr > th, td {
+    padding-top: 15px
+}
+
+/* -------------- Forms ---------------- */
+
+.form-control {
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.wrong {
+    color: red;
+}

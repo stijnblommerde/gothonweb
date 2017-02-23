@@ -1,0 +1,17 @@
+$def with (room, form, help_user)
+
+<h1>$room.name</h1>
+
+<pre>
+    $room.description
+</pre>
+
+$if help_user:
+    $room.help
+
+$if room.name == "death":
+    <p><a href="/">Play again?</a></p>
+$else:
+    <form method="POST">
+        $:form.render()
+    </form>
