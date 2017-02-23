@@ -152,5 +152,6 @@ class Reset(object):
 def validate_password():
     pass
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     app.run()

@@ -1,5 +1,5 @@
 from nose.tools import *
-from gothonweb.map import *
+from src.bin.map import *
 
 
 def test_room():

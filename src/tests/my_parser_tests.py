@@ -7,7 +7,7 @@ from nose.tools import *
 
 # add src to paths
 # http://stackoverflow.com/questions/19885821/how-do-i-import-modules-in-pycharm
-from bin.my_parser import *
+from src.bin.my_parser import *
 
 
 def test_peek():

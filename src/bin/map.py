@@ -1,3 +1,9 @@
+"""
+problem: relative import from bin/app.py to gothonweb/map.py did not work
+temporary solution: copy map.py into bin/
+todo: create relative import from bin/app.py to gothonweb/map.py
+"""
+
 import random
 
 

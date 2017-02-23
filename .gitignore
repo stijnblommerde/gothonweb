@@ -2,6 +2,7 @@ env/
 .idea
 .DS_Store
 .pyc
+src/bin/__init__.py
 src/bin/app.pyc
 src/bin/forms.pyc
 src/bin/lexicon.pyc
@@ -9,3 +10,11 @@ src/bin/map.pyc
 src/bin/my_parser.pyc
 src/bin/postgres.pyc
 src/bin/utils.pyc
+tests/app_tests.pyc
+tests/lexicon_tests.pyc
+tests/map_tests.pyc
+tests/my_parser_tests.pyc
+src/bin/*.pyc
+tests/*.pyc
+src/sessions/
+sessions/
