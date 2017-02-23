@@ -1,3 +1,7 @@
+"""
+app.py is executable. no relative imports possible
+"""
+
 import web
 from web import template, seeother, session, config, database
 
